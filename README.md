@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Models
+  - Db
+  - Table base rules 
+Views
+  - users sees and interacts with 
+  - client side, front end
+Controllers
+  - actions things we would do for certain routes.
+  routes
+    - traffic director
 
-Things you may want to cover:
 
-* Ruby version
+Rails convention over configuration
 
-* System dependencies
+Models Single
+Controllers Pural
 
-* Configuration
+Blog
 
-* Database creation
+Page
+  title:string
+  author:string
+  body:text
 
-* Database initialization
+Comments
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+migrations are set of instructions to apply to the database
