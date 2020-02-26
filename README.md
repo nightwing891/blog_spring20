@@ -28,3 +28,25 @@ Comments
 
 
 migrations are set of instructions to apply to the database
+
+
+Controllers actions
+index - show all pages
+show - show single page
+new - new form 
+create - create object
+edit - edit form 
+update - update object
+destroy - delete the object
+
+<!-- ERB -->
+emmbedded ruby
+
+non-echoing tags
+  - ruby logic
+  - do not display on to the screen 
+<% rubycodehere %>
+
+echoing tags
+<%=  %>
+- do display to the screen 
